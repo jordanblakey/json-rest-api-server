@@ -1,0 +1,18 @@
+{
+  "name": "json-rest-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.11.2"
+  },
+  "devDependencies": {
+    "json-server": "^0.11.2"
+  },
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "author": "",
+  "license": "ISC"
+}
